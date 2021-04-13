@@ -30,7 +30,7 @@ class App extends React.Component {
           <LoginPage validateFun={this.formValidation} />
           :
           <div>
-            <h1 style={{textAlign:'center',borderBottom:'6px solid green'}}>Dashboard</h1>
+            <h1 style={{ textAlign: 'center', borderBottom: '6px solid green' }}>Dashboard</h1>
             <table width="100%">
               <tr>
                 <th>Id</th>

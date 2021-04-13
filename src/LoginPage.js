@@ -23,9 +23,7 @@ const LoginPage = props => {
         type="text"
         component={renderField}
         label="Username"
-        
       />
-      
       <Field
         name="password"
         type="password"
